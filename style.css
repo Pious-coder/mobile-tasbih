@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url('c-bg.svg');
+    background-size: cover;
+    font-family: 'Sen', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    background: url('c-bg.svg');
+    background-size: cover;
+    box-shadow: 0 2px 3px 3px rgba(0, 0, 0, .9);
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 300px;
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    color: lightsteelblue;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#output{
+    color: lightsteelblue;
+    font-size: 3.5em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    background-image: linear-gradient(to right, #531701, #150330);
+    border-radius:10px;
+    box-shadow: 0 3px 3px 1.3px rgba(0, 0, 0, .9);
+    padding: 10px 20px;
+
+}
+
+.btn{
+    background-color: #CD5C5C;
+    color: #4B0082;
+    border: 3px solid #4B0082;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #4B0082;
+    color: #CD5C5C;
+    transform: scale(1.1);
+    transition:all 1s ease-in-out;
+}
+
+.reset{
+    position: absolute;
+    font-size: 25px;
+    top: 11.5rem;
+    right: .5rem;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    background: transparent;
+    color: red;
+    cursor: pointer;
+}
+
+.reset:hover{
+    color: aliceblue;
+    transform: scale(1.1);
+    transition:all 1s ease-in-out;
+}
+
+#save-btn{
+    position: absolute;
+    top: 11rem;
+    left: 3rem;
+    font-size: 2rem;
+    background: transparent;
+    color: slateblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+#save-btn:hover{
+    color: royalblue;
+    transform: scale(1.1);
+    transition:all 1s ease-in-out;
+}
+
+#saved-el{
+    color: #531701;
+}
